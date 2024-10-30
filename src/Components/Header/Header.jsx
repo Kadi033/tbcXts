@@ -53,7 +53,7 @@ export default function Header() {
           </li>
         </ul>
         <Link className="Header-logo Link" href="/">
-          Geo Market
+          KD ZONE
         </Link>
       </nav>
 

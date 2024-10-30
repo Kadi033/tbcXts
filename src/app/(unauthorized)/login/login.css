@@ -83,6 +83,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: url("../../../../public/assets/aka.jpg")
+  no-repeat center center;
+background-size: cover;
   overflow: hidden;
 }
 

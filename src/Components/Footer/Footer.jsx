@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container2">
         <div className="footer-top2">
           <Link className="footer-logo" href="/">
-            Geo Market
+            KD ZONE
           </Link>
           <div className="title2">November 8-9</div>
           <div className="title2">Live and Virtual</div>

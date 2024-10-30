@@ -3,11 +3,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("../../../../public/assets/kadi.jpg")
-  no-repeat center center;
-background-size: cover;
+
   background-color: black;
-  background-size: cover;
   color: white;
   text-align: center;
   padding: 20px;

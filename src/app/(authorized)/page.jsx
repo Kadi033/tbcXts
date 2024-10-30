@@ -4,10 +4,6 @@ export default function Content() {
   return (
     <div className="main-container">
       <section>
-        <img
-          src="/assets/67061df890aa3a22852e80db_hero ribbon.png"
-          className="ribbon-image"
-        />
         <div className="center-text">
           <div className="tag-flex">
             <div className="title">November 8-9</div>
