@@ -1,26 +1,7 @@
-"use client";
-
-import { logout } from "@/lib/action";
 import "./Header.css";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function Header() {
-  const router = useRouter();
-
-  const handleLogout = async () => {
-    try {
-      const result = await logout();
-      if (result.success) {
-        router.push("/login");
-      } else {
-        console.error("Logout failed", result.message);
-      }
-    } catch (error) {
-      console.error("Error during logout:", error);
-    }
-  };
-
   return (
     <header className="Header">
       <nav>
@@ -45,7 +26,6 @@ export default function Header() {
               Blog
             </Link>
           </li>
-
           <li>
             <Link className="Link" href="/profile">
               Profile
@@ -56,10 +36,9 @@ export default function Header() {
           KD ZONE
         </Link>
       </nav>
-
-      <button className="header-button" onClick={handleLogout}>
-        Log Out
-      </button>
+      <a href="/api/auth/logout">
+        <button className="header-button">Logout</button>
+      </a>
     </header>
   );
 }
